@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#e4dbdb">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30sp"
+            android:text="ＬＡＴＩＨＡＮ ５"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnKonversiSuhu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:layout_marginTop="40sp"
+            android:layout_marginRight="20sp"
+            android:textColor="#e4dbdb"
+            android:text="𝐊𝐨𝐧𝐯𝐞𝐫𝐬𝐢 𝐒𝐮𝐡𝐮" />
+
+        <Button
+            android:id="@+id/btnHitungBelanja"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:layout_marginTop="15sp"
+            android:layout_marginRight="20sp"
+            android:textColor="#e4dbdb"
+            android:text="𝐌𝐞𝐧𝐠𝐡𝐢𝐭𝐮𝐧𝐠 𝐃𝐢𝐬𝐤𝐨𝐧 𝐁𝐞𝐥𝐚𝐧𝐣𝐚" />
+
+        <Button
+            android:id="@+id/btnBangunRuang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:layout_marginTop="10sp"
+            android:layout_marginRight="20sp"
+            android:textColor="#e4dbdb"
+            android:text="𝐁𝐚𝐧𝐠𝐮𝐧 𝐑𝐮𝐚𝐧𝐠" />
+
+        <Button
+            android:id="@+id/btnBilangan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:layout_marginTop="10sp"
+            android:layout_marginRight="20sp"
+            android:textColor="#e4dbdb"
+            android:text="𝐁𝐢𝐥𝐚𝐧𝐠𝐚𝐧" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
